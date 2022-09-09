@@ -1,9 +1,12 @@
 #include <iostream>
+#include <string>
+#include <locale>
 
 using namespace std;
 
 void main()
 {
+   setlocale( LC_ALL,"Russian" );
     int aInt = 150;
     float bFloat = 15.933;
     short int cShInt = 250;
